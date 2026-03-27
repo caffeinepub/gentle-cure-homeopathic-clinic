@@ -4,105 +4,105 @@
 
 @layer base {
   :root {
-    /* Forest Green Primary - #1B4332 → oklch(0.29 0.08 160) */
-    --primary: 0.29 0.08 160;
-    --primary-foreground: 0.97 0.01 90;
+    /* Dental Blue Primary - #1B5FA8 → oklch(0.42 0.16 250) */
+    --primary: 0.42 0.16 250;
+    --primary-foreground: 0.98 0.005 250;
 
-    /* Background - warm cream #FAF7F0 → oklch(0.97 0.015 90) */
-    --background: 0.97 0.015 90;
-    --foreground: 0.15 0.02 160;
+    /* Background - crisp white */
+    --background: 0.99 0.005 240;
+    --foreground: 0.13 0.02 240;
 
     /* Card */
-    --card: 0.99 0.005 80;
-    --card-foreground: 0.15 0.02 160;
+    --card: 1.0 0.0 0;
+    --card-foreground: 0.13 0.02 240;
 
     /* Popover */
-    --popover: 0.99 0.005 80;
-    --popover-foreground: 0.15 0.02 160;
+    --popover: 1.0 0.0 0;
+    --popover-foreground: 0.13 0.02 240;
 
-    /* Secondary - sage green */
-    --secondary: 0.88 0.04 155;
-    --secondary-foreground: 0.25 0.07 158;
+    /* Secondary - light blue-grey */
+    --secondary: 0.92 0.03 240;
+    --secondary-foreground: 0.32 0.08 250;
 
     /* Muted */
-    --muted: 0.93 0.02 100;
-    --muted-foreground: 0.5 0.03 160;
+    --muted: 0.94 0.02 240;
+    --muted-foreground: 0.52 0.03 250;
 
-    /* Accent - gold #C9A84C → oklch(0.72 0.12 80) */
-    --accent: 0.72 0.12 80;
-    --accent-foreground: 0.15 0.02 160;
+    /* Accent - sky blue #38B6FF → oklch(0.72 0.14 230) */
+    --accent: 0.72 0.14 230;
+    --accent-foreground: 0.13 0.02 240;
 
     /* Destructive */
     --destructive: 0.55 0.22 27;
     --destructive-foreground: 0.97 0.01 90;
 
     /* Border & Input */
-    --border: 0.88 0.03 155;
-    --input: 0.88 0.03 155;
-    --ring: 0.29 0.08 160;
+    --border: 0.88 0.03 240;
+    --input: 0.88 0.03 240;
+    --ring: 0.42 0.16 250;
 
-    /* Custom tokens */
-    --gold: 0.72 0.12 80;
-    --gold-light: 0.86 0.07 82;
-    --forest: 0.29 0.08 160;
-    --forest-light: 0.42 0.09 158;
-    --forest-dark: 0.2 0.07 160;
-    --cream: 0.97 0.015 90;
+    /* Custom tokens (keep same names for compatibility) */
+    --gold: 0.72 0.14 230;
+    --gold-light: 0.86 0.07 230;
+    --forest: 0.42 0.16 250;
+    --forest-light: 0.55 0.14 248;
+    --forest-dark: 0.3 0.14 252;
+    --cream: 0.97 0.01 240;
 
     --radius: 0.5rem;
 
     /* Charts */
-    --chart-1: 0.29 0.08 160;
-    --chart-2: 0.72 0.12 80;
+    --chart-1: 0.42 0.16 250;
+    --chart-2: 0.72 0.14 230;
     --chart-3: 0.55 0.12 200;
-    --chart-4: 0.65 0.15 140;
-    --chart-5: 0.75 0.09 100;
+    --chart-4: 0.65 0.15 270;
+    --chart-5: 0.75 0.09 220;
 
     /* Sidebar */
-    --sidebar: 0.99 0.005 80;
-    --sidebar-foreground: 0.15 0.02 160;
-    --sidebar-primary: 0.29 0.08 160;
-    --sidebar-primary-foreground: 0.97 0.01 90;
-    --sidebar-accent: 0.88 0.04 155;
-    --sidebar-accent-foreground: 0.25 0.07 158;
-    --sidebar-border: 0.88 0.03 155;
-    --sidebar-ring: 0.29 0.08 160;
+    --sidebar: 1.0 0.0 0;
+    --sidebar-foreground: 0.13 0.02 240;
+    --sidebar-primary: 0.42 0.16 250;
+    --sidebar-primary-foreground: 0.98 0.005 250;
+    --sidebar-accent: 0.92 0.03 240;
+    --sidebar-accent-foreground: 0.32 0.08 250;
+    --sidebar-border: 0.88 0.03 240;
+    --sidebar-ring: 0.42 0.16 250;
   }
 
   .dark {
-    --primary: 0.55 0.12 158;
-    --primary-foreground: 0.1 0.02 160;
-    --background: 0.12 0.03 160;
-    --foreground: 0.93 0.01 90;
-    --card: 0.16 0.04 160;
-    --card-foreground: 0.93 0.01 90;
-    --popover: 0.16 0.04 160;
-    --popover-foreground: 0.93 0.01 90;
-    --secondary: 0.22 0.06 158;
-    --secondary-foreground: 0.8 0.04 155;
-    --muted: 0.2 0.04 160;
-    --muted-foreground: 0.65 0.03 155;
-    --accent: 0.72 0.12 80;
-    --accent-foreground: 0.1 0.02 160;
+    --primary: 0.62 0.16 248;
+    --primary-foreground: 0.1 0.02 240;
+    --background: 0.12 0.03 240;
+    --foreground: 0.93 0.01 250;
+    --card: 0.16 0.04 240;
+    --card-foreground: 0.93 0.01 250;
+    --popover: 0.16 0.04 240;
+    --popover-foreground: 0.93 0.01 250;
+    --secondary: 0.22 0.06 242;
+    --secondary-foreground: 0.8 0.04 248;
+    --muted: 0.2 0.04 240;
+    --muted-foreground: 0.65 0.03 245;
+    --accent: 0.72 0.14 230;
+    --accent-foreground: 0.1 0.02 240;
     --destructive: 0.55 0.22 27;
     --destructive-foreground: 0.97 0.01 90;
-    --border: 0.25 0.05 158;
-    --input: 0.25 0.05 158;
-    --ring: 0.55 0.12 158;
-    --gold: 0.72 0.12 80;
-    --gold-light: 0.86 0.07 82;
-    --forest: 0.55 0.12 158;
-    --forest-light: 0.68 0.1 156;
-    --forest-dark: 0.42 0.09 158;
-    --cream: 0.18 0.03 160;
-    --sidebar: 0.16 0.04 160;
-    --sidebar-foreground: 0.93 0.01 90;
-    --sidebar-primary: 0.55 0.12 158;
-    --sidebar-primary-foreground: 0.1 0.02 160;
-    --sidebar-accent: 0.22 0.06 158;
-    --sidebar-accent-foreground: 0.8 0.04 155;
-    --sidebar-border: 0.25 0.05 158;
-    --sidebar-ring: 0.55 0.12 158;
+    --border: 0.25 0.05 242;
+    --input: 0.25 0.05 242;
+    --ring: 0.62 0.16 248;
+    --gold: 0.72 0.14 230;
+    --gold-light: 0.86 0.07 230;
+    --forest: 0.62 0.16 248;
+    --forest-light: 0.72 0.14 246;
+    --forest-dark: 0.48 0.14 250;
+    --cream: 0.18 0.03 240;
+    --sidebar: 0.16 0.04 240;
+    --sidebar-foreground: 0.93 0.01 250;
+    --sidebar-primary: 0.62 0.16 248;
+    --sidebar-primary-foreground: 0.1 0.02 240;
+    --sidebar-accent: 0.22 0.06 242;
+    --sidebar-accent-foreground: 0.8 0.04 248;
+    --sidebar-border: 0.25 0.05 242;
+    --sidebar-ring: 0.62 0.16 248;
   }
 }
 
@@ -133,6 +133,7 @@ html {
 }
 
 /* Gold divider */
+.dental-divider,
 .gold-divider {
   @apply w-16 h-1 rounded-full;
   background: oklch(var(--gold));

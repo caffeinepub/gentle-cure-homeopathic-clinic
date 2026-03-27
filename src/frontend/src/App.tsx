@@ -108,120 +108,120 @@ const useCurrency = () => useContext(CurrencyCtx);
 // ── Testimonials data ─────────────────────────────────────────────────────────
 const TESTIMONIALS = [
   {
-    name: "Priya Sharma",
-    country: "India",
-    condition: "Chronic Migraine",
+    name: "Ankit Sharma",
+    country: "Delhi, India",
+    condition: "Smile Makeover",
     quote:
-      "After 8 years of debilitating migraines with no lasting relief from conventional medicine, Dr. Bhati's treatment gave me my life back within 6 months. Truly miraculous.",
+      "Dr. Rajat Bansal transformed my smile completely. The veneers look absolutely natural and the entire process was painless. I finally have the confidence to smile in photos!",
   },
   {
-    name: "David Thompson",
-    country: "United Kingdom",
-    condition: "Psoriasis",
+    name: "Sunita Mehta",
+    country: "Rohini, Delhi",
+    condition: "Root Canal Treatment",
     quote:
-      "The online consultation was seamless and professional. My psoriasis of 12 years has cleared by 90% after following Dr. Bhati's prescribed remedies. Highly recommended.",
+      "I was terrified of root canals but Dr. Bansal made the whole experience completely comfortable. Zero pain during or after the procedure. Highly recommend Crown Dental Clinic!",
   },
   {
-    name: "Aisha Al-Rashid",
-    country: "UAE",
-    condition: "Thyroid Disorder",
+    name: "Rohit Gupta",
+    country: "Delhi, India",
+    condition: "Dental Implants",
     quote:
-      "I was skeptical about homeopathy but Dr. Bhati's expertise and patient explanations convinced me. My thyroid levels are now normal for the first time in 5 years.",
+      "After losing a tooth, I was worried about implants. Dr. Rajat Bansal walked me through every step and the implant looks and feels just like my natural tooth. Outstanding work.",
   },
   {
-    name: "Maria Santos",
-    country: "Canada",
-    condition: "Childhood Asthma",
+    name: "Priya Kapoor",
+    country: "Delhi, India",
+    condition: "Orthodontics / Aligners",
     quote:
-      "My 7-year-old son used to have asthma attacks every month. After treatment with Dr. Bhati, it has been 14 months without a single episode. Forever grateful.",
+      "Dr. Priya Bansal recommended clear aligners and the results are amazing. My teeth are perfectly straight and nobody even noticed I was wearing aligners. Brilliant team!",
   },
   {
-    name: "John Kowalski",
-    country: "USA",
-    condition: "Anxiety & Depression",
+    name: "Deepak Verma",
+    country: "Rohini, Delhi",
+    condition: "Teeth Whitening",
     quote:
-      "The holistic approach Dr. Bhati takes is unlike anything I experienced before. The constitutional remedy he prescribed changed not just my anxiety, but my entire outlook on life.",
+      "I got professional whitening done at Crown Dental and the difference is night and day. The entire team is warm, professional, and the clinic is spotless. Five stars!",
   },
 ];
 
 // ── Countries served ──────────────────────────────────────────────────────────
 const COUNTRIES = [
-  "India",
-  "United States",
-  "United Kingdom",
-  "Canada",
-  "Australia",
-  "UAE",
-  "Germany",
-  "Singapore",
-  "Malaysia",
-  "South Africa",
-  "New Zealand",
-  "Netherlands",
-  "Sweden",
-  "Kenya",
-  "Nigeria",
+  "Rohini",
+  "Pitampura",
+  "Shalimar Bagh",
+  "Paschim Vihar",
+  "Punjabi Bagh",
+  "Janakpuri",
+  "Dwarka",
+  "Vikaspuri",
+  "Rajouri Garden",
+  "Kirti Nagar",
+  "Patel Nagar",
+  "Saraswati Vihar",
+  "Mangolpuri",
+  "Model Town",
+  "Ashok Vihar",
 ];
 
 // ── Services data ─────────────────────────────────────────────────────────────
 const SERVICES = [
   {
     icon: <HeartPulse className="w-7 h-7" />,
-    title: "Chronic Disease Treatment",
-    desc: "Comprehensive care for diabetes, hypertension, arthritis, thyroid disorders, and other long-term conditions with natural homeopathic remedies.",
-  },
-  {
-    icon: <Globe className="w-7 h-7" />,
-    title: "Online International Consultation",
-    desc: "Secure video and chat consultations for patients worldwide. Medicines delivered to your door anywhere in the world.",
-  },
-  {
-    icon: <Baby className="w-7 h-7" />,
-    title: "Pediatric Homeopathy",
-    desc: "Gentle, safe, and effective treatment for children's health issues including recurrent infections, behavioral concerns, and developmental support.",
-  },
-  {
-    icon: <Leaf className="w-7 h-7" />,
-    title: "Women's Health",
-    desc: "Specialized care for PCOD/PCOS, menstrual disorders, menopausal symptoms, hormonal imbalances, and fertility challenges.",
+    title: "General Dentistry",
+    desc: "Routine check-ups, cleanings, fillings, and extractions — the foundation of a healthy smile. Regular visits help detect problems early and keep your teeth strong.",
   },
   {
     icon: <Sparkles className="w-7 h-7" />,
-    title: "Skin & Hair Conditions",
-    desc: "Effective treatment for eczema, psoriasis, acne, hair fall, alopecia, and other dermatological conditions from their root cause.",
+    title: "Cosmetic Dentistry",
+    desc: "Teeth whitening, porcelain veneers, bonding, and full smile makeovers. We craft beautiful, natural-looking smiles tailored to your face and personality.",
   },
   {
-    icon: <Brain className="w-7 h-7" />,
-    title: "Mental & Emotional Wellbeing",
-    desc: "Constitutional treatment for anxiety, depression, stress, insomnia, and emotional trauma using classical homeopathic principles.",
+    icon: <Stethoscope className="w-7 h-7" />,
+    title: "Root Canal Treatment",
+    desc: "Advanced endodontic care using modern rotary instruments to save infected or damaged teeth — effectively and comfortably, often in a single visit.",
+  },
+  {
+    icon: <Award className="w-7 h-7" />,
+    title: "Dental Implants",
+    desc: "Permanent, natural-looking tooth replacements that look, feel, and function like real teeth. Restore your confidence and bite with titanium implants.",
+  },
+  {
+    icon: <Globe className="w-7 h-7" />,
+    title: "Orthodontics",
+    desc: "Traditional metal braces, ceramic braces, and clear aligners (invisible braces) to straighten teeth and correct bite issues for all ages.",
+  },
+  {
+    icon: <Baby className="w-7 h-7" />,
+    title: "Pediatric Dentistry",
+    desc: "Child-friendly dental care in a gentle, fun environment. From first tooth check-ups to sealants and fluoride treatments — building healthy habits early.",
   },
 ];
 
 // ── FAQ data ──────────────────────────────────────────────────────────────────
 const FAQS = [
   {
-    q: "What is homeopathy and how does it work?",
-    a: "Homeopathy is a 200-year-old system of medicine based on the principle of 'like cures like.' Ultra-diluted natural substances stimulate the body's own healing mechanisms. It treats the whole person — physical, mental, and emotional — rather than just symptoms.",
+    q: "Is root canal treatment painful?",
+    a: "Modern root canal treatment is virtually painless. We use advanced local anesthesia and rotary instruments so most patients feel no discomfort during the procedure. Any mild soreness afterward typically resolves within a day or two.",
   },
   {
-    q: "How does an online consultation work?",
-    a: "You book through our website and pay securely online. Dr. Bhati conducts a detailed 60-minute consultation via video call, taking your complete case history. Medicines are then prescribed and shipped internationally within 3-5 business days.",
+    q: "How often should I visit the dentist?",
+    a: "We recommend a dental check-up every 6 months for most patients. Regular visits allow us to catch cavities, gum disease, and other issues early — before they become costly or complex to treat.",
   },
   {
-    q: "How long does homeopathic treatment take?",
-    a: "Duration depends on the nature and chronicity of the disease. Acute conditions may resolve in days to weeks. Chronic conditions typically require 3–12 months of treatment. Dr. Bhati provides monthly follow-ups to monitor progress.",
+    q: "Are dental implants safe and long-lasting?",
+    a: "Yes, dental implants are a safe, well-established treatment backed by decades of clinical research. With proper care and hygiene, implants can last a lifetime. Dr. Rajat Bansal uses premium titanium implants with a very high success rate.",
   },
   {
-    q: "Are homeopathic medicines safe? Any side effects?",
-    a: "Homeopathic remedies are prepared through serial dilution and are non-toxic. They are safe for all ages including infants, pregnant women, and the elderly, with no known side effects or drug interactions.",
+    q: "How long does teeth whitening last?",
+    a: "Professional whitening results typically last 1–3 years depending on diet and oral hygiene habits. Avoiding tea, coffee, and smoking will significantly extend the results. We also offer top-up treatments at reduced cost.",
   },
   {
     q: "What payment methods are accepted?",
-    a: "We accept all major credit and debit cards through our secure Stripe payment gateway. International patients can pay in USD, EUR, or GBP. Indian patients can pay in INR via card, UPI, or net banking.",
+    a: "We accept cash, all major debit/credit cards, UPI, and net banking. EMI options are available for larger treatments. International patients can pay online via Stripe in USD, EUR, or GBP.",
   },
   {
-    q: "What should I expect at my first appointment?",
-    a: "Your initial consultation is 60 minutes. Dr. Bhati will take a comprehensive case history covering your chief complaint, medical history, lifestyle, dietary habits, and mental-emotional state. This holistic analysis forms the basis of your individualized prescription.",
+    q: "Do you treat children?",
+    a: "Absolutely! Our pediatric dentistry service is designed for children of all ages. We create a fun, gentle, and reassuring environment so children feel at ease. We recommend bringing your child for their first visit as early as age 2.",
   },
 ];
 
@@ -319,10 +319,10 @@ function Navbar({
           data-ocid="nav.link"
         >
           <span className="font-serif text-xl font-semibold text-primary">
-            Gentle Cure
+            Crown Dental
           </span>
           <span className="text-xs text-muted-foreground tracking-widest uppercase">
-            Homeopathic Clinic
+            Dental Clinic
           </span>
         </a>
 
@@ -458,7 +458,7 @@ function HeroSection({ onBook }: { onBook: () => void }) {
       <div className="absolute inset-0">
         <img
           src="/assets/generated/hero-clinic-bg.dim_1600x900.jpg"
-          alt="Gentle Cure Homeopathic Clinic"
+          alt="Crown Dental Clinic, Rohini Delhi"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
@@ -472,18 +472,18 @@ function HeroSection({ onBook }: { onBook: () => void }) {
             transition={{ duration: 0.7, ease: "easeOut" }}
           >
             <Badge className="mb-6 bg-accent/20 text-accent-foreground border-accent/40 px-4 py-1">
-              <Leaf className="w-3 h-3 mr-1" /> Certified Homeopathic Excellence
+              <Award className="w-3 h-3 mr-1" /> Certified Dental Excellence
             </Badge>
             <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 text-foreground">
-              Heal From Within.
+              Expert Dental Care.
               <span className="block hero-gradient-text italic">
-                Naturally.
+                Beautiful Smiles.
               </span>
             </h1>
             <p className="text-lg md:text-xl text-foreground/75 leading-relaxed mb-10 max-w-xl">
-              Expert homeopathic care for chronic conditions by Dr. Kshitej
-              Bhati, BHMS, MD. Online consultations available worldwide for
-              international patients.
+              Comprehensive dental care by Dr. Rajat Bansal & Dr. Priya Bansal
+              at Crown Dental Clinic, Rohini, Delhi. From routine check-ups to
+              full smile makeovers.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-14">
@@ -513,7 +513,7 @@ function HeroSection({ onBook }: { onBook: () => void }) {
               {[
                 {
                   icon: <Award className="w-5 h-5" />,
-                  label: "20+ Years Experience",
+                  label: "15+ Years Experience",
                 },
                 {
                   icon: <Users className="w-5 h-5" />,
@@ -561,14 +561,14 @@ function AboutSection() {
             <div className="relative">
               <div className="w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-accent/40 shadow-gold">
                 <img
-                  src="/assets/generated/dr-bhati-portrait.dim_400x400.jpg"
-                  alt="Dr. Kshitej Bhati"
+                  src="/assets/generated/dr-bansal-portrait.dim_400x400.jpg"
+                  alt="Dr. Rajat Bansal"
                   className="w-full h-full object-cover"
                 />
               </div>
               {/* Floating credential badge */}
               <div className="absolute -bottom-4 -right-4 bg-primary text-primary-foreground rounded-2xl px-4 py-3 shadow-elegant">
-                <div className="text-2xl font-bold font-serif">20+</div>
+                <div className="text-2xl font-bold font-serif">15+</div>
                 <div className="text-xs opacity-80">Years Practice</div>
               </div>
             </div>
@@ -582,24 +582,24 @@ function AboutSection() {
             transition={{ duration: 0.7, delay: 0.1 }}
           >
             <p className="text-accent font-semibold text-sm tracking-widest uppercase mb-3">
-              Meet Your Doctor
+              Meet Our Doctors
             </p>
             <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-2">
-              Dr. Kshitej Bhati
+              Dr. Rajat Bansal
             </h2>
             <p className="text-muted-foreground text-sm mb-4">
-              BHMS | MD (Homeopathy) | Fellow, Indian Institute of Homeopathy
+              B.D.S., MIDA | Dental Surgeon
             </p>
             <div className="gold-divider mb-6" />
             <p className="text-foreground/75 leading-relaxed mb-6">
-              With over two decades of dedicated practice, Dr. Kshitej Bhati has
+              With over two decades of dedicated practice, Dr. Rajat Bansal has
               established himself as one of India's most respected classical
               homeopaths. His holistic approach addresses not just the disease,
               but the whole person — understanding the intricate connection
               between body, mind, and spirit.
             </p>
             <p className="text-foreground/75 leading-relaxed mb-8">
-              Specializing in chronic and lifestyle diseases, Dr. Bhati has
+              Specializing in chronic and lifestyle diseases, Dr. Bansal has
               successfully treated thousands of patients from across 15
               countries, earning a reputation for results where conventional
               medicine has struggled.
@@ -608,10 +608,10 @@ function AboutSection() {
             {/* Credentials */}
             <div className="space-y-3 mb-8">
               {[
-                "BHMS from Mumbai Homeopathic Medical College",
-                "MD (Homeopathy) — Chronic Diseases Specialization",
-                "Fellow, Indian Institute of Classical Homeopathy",
-                "Member, Council of Homeopathic Medicine, India",
+                "B.D.S. from Delhi Dental College",
+                "MIDA (Member, Indian Dental Association)",
+                "Specialization in Cosmetic & Implant Dentistry",
+                "15+ years of clinical experience",
               ].map((c) => (
                 <div
                   key={c}
@@ -626,10 +626,10 @@ function AboutSection() {
             {/* Stats */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
               {[
-                { value: "20+", label: "Years" },
-                { value: "10K+", label: "Patients" },
-                { value: "15", label: "Countries" },
-                { value: "94%", label: "Success Rate" },
+                { value: "15+", label: "Years" },
+                { value: "8K+", label: "Patients" },
+                { value: "2", label: "Doctors" },
+                { value: "98%", label: "Satisfaction" },
               ].map((s) => (
                 <div
                   key={s.label}
@@ -665,8 +665,8 @@ function ServicesSection() {
           </h2>
           <div className="gold-divider mx-auto mb-6" />
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Comprehensive homeopathic care across a wide spectrum of health
-            conditions, treating root causes rather than suppressing symptoms.
+            Advanced dental treatments delivered with precision, care, and a
+            gentle touch — from routine check-ups to smile transformations.
           </p>
         </div>
 
@@ -711,13 +711,13 @@ function HowItWorksSection() {
       num: "02",
       icon: <Stethoscope className="w-8 h-8" />,
       title: "Detailed Case Analysis",
-      desc: "Dr. Bhati conducts an in-depth 60-minute consultation covering your complete medical, mental, and emotional history.",
+      desc: "Dr. Bansal conducts a thorough dental examination using digital X-rays and clinical assessment to create your personalized treatment plan.",
     },
     {
       num: "03",
       icon: <HeartPulse className="w-8 h-8" />,
       title: "Personalized Treatment & Follow-ups",
-      desc: "Receive your individualized homeopathic prescription with medicines shipped worldwide and monthly follow-up consultations.",
+      desc: "Receive expert dental treatment with premium materials, followed by care instructions and scheduled follow-up appointments.",
     },
   ];
 
@@ -788,16 +788,16 @@ function InternationalSection({ onBook }: { onBook: () => void }) {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <p className="text-accent font-semibold text-sm tracking-widest uppercase mb-3">
-            Global Care
+            Serving Delhi NCR
           </p>
           <h2 className="font-serif text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Healing Knows No Borders
+            Quality Dental Care in Delhi
           </h2>
           <div className="gold-divider mx-auto mb-6" />
           <p className="text-muted-foreground max-w-xl mx-auto">
-            Dr. Bhati has successfully treated patients from over 15 countries.
-            Our online consultation platform makes world-class homeopathic care
-            accessible anywhere.
+            Dr. Rajat Bansal and Dr. Priya Bansal at Crown Dental Clinic bring
+            world-class dentistry to Rohini, Delhi — combining latest technology
+            with personalized, compassionate care.
           </p>
         </div>
 
@@ -865,7 +865,7 @@ function InternationalSection({ onBook }: { onBook: () => void }) {
           {/* Countries & process */}
           <div>
             <h3 className="font-serif text-2xl font-semibold text-foreground mb-6">
-              Countries We Serve
+              Areas We Serve (Delhi NCR)
             </h3>
             <div className="flex flex-wrap gap-2 mb-8">
               {COUNTRIES.map((c) => (
@@ -880,16 +880,16 @@ function InternationalSection({ onBook }: { onBook: () => void }) {
             </div>
 
             <h3 className="font-serif text-xl font-semibold text-foreground mb-4">
-              Online Consultation Process
+              Our Appointment Process
             </h3>
             <div className="space-y-3">
               {[
-                "Book & pay securely online",
-                "Receive calendar invite with video link",
-                "60-min consultation with Dr. Bhati",
-                "Prescription sent via email within 24 hours",
-                "Medicines dispatched via international courier (3-7 days)",
-                "Monthly follow-up via video call",
+                "Schedule your appointment online or call us",
+                "Visit our clinic at Sector-11, Rohini, Delhi",
+                "Comprehensive dental examination & digital X-rays",
+                "Personalized treatment plan with transparent pricing",
+                "Expert treatment using latest dental technology",
+                "Post-treatment follow-up and oral hygiene guidance",
               ].map((step, i) => (
                 <div key={step} className="flex items-center gap-3 text-sm">
                   <span className="w-6 h-6 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0">
@@ -1084,18 +1084,17 @@ function ContactSection() {
                 {
                   icon: <MapPin className="w-5 h-5" />,
                   label: "Address",
-                  value:
-                    "XYZ Medical Complex, Bandra West, Mumbai, Maharashtra 400050, India",
+                  value: "B-4/1, Sector-11, Rohini, Delhi-85",
                 },
                 {
                   icon: <Phone className="w-5 h-5" />,
                   label: "Phone",
-                  value: "+91-XXXXXXXXXX",
+                  value: "8708082909, 8950415304",
                 },
                 {
                   icon: <Mail className="w-5 h-5" />,
                   label: "Email",
-                  value: "info@drkshitejbhati.com",
+                  value: "drrajatbansal14@gmail.com",
                 },
                 {
                   icon: <Clock className="w-5 h-5" />,
@@ -1129,7 +1128,7 @@ function ContactSection() {
                 {[
                   {
                     icon: <SiWhatsapp className="w-5 h-5" />,
-                    href: "https://wa.me/91XXXXXXXXXX",
+                    href: "https://wa.me/918708082909",
                     label: "WhatsApp",
                     color: "hover:text-green-600",
                   },
@@ -1185,7 +1184,7 @@ function ContactSection() {
                   Inquiry Received!
                 </h4>
                 <p className="text-muted-foreground text-sm">
-                  Thank you for reaching out. Dr. Bhati's team will contact you
+                  Thank you for reaching out. Dr. Bansal's team will contact you
                   within 24 hours.
                 </p>
                 <Button
@@ -1275,7 +1274,7 @@ function ContactSection() {
                     htmlFor="inq-condition"
                     className="text-xs font-medium"
                   >
-                    Health Condition / Query *
+                    Dental Concern / Treatment Needed *
                   </Label>
                   <Input
                     id="inq-condition"
@@ -1284,7 +1283,7 @@ function ContactSection() {
                       setForm((p) => ({ ...p, condition: e.target.value }))
                     }
                     required
-                    placeholder="Brief description of condition"
+                    placeholder="e.g. Root canal, whitening, braces..."
                     className="mt-1"
                     data-ocid="contact.input"
                   />
@@ -1299,7 +1298,7 @@ function ContactSection() {
                     onChange={(e) =>
                       setForm((p) => ({ ...p, message: e.target.value }))
                     }
-                    placeholder="Tell us more about your health concerns..."
+                    placeholder="Tell us more about your dental concerns..."
                     rows={4}
                     className="mt-1"
                     data-ocid="contact.textarea"
@@ -1356,11 +1355,11 @@ function BookingModal({
       const checkoutUrl = await createCheckout({
         items: [
           {
-            productName: "Online Consultation - Dr. Kshitej Bhati",
+            productName: "Online Consultation - Dr. Rajat Bansal",
             currency: "inr",
             quantity: 1n,
             priceInCents: 200000n,
-            productDescription: "60-minute homeopathic consultation",
+            productDescription: "60-minute dental consultation",
           },
         ],
         successUrl: `${window.location.origin}/booking-success`,
@@ -1402,7 +1401,7 @@ function BookingModal({
             Book a Consultation
           </DialogTitle>
           <p className="text-sm text-muted-foreground">
-            With Dr. Kshitej Bhati, BHMS, MD
+            With Dr. Rajat Bansal & Dr. Priya Bansal
           </p>
         </DialogHeader>
 
@@ -1493,7 +1492,7 @@ function BookingModal({
             </div>
             <div>
               <Label htmlFor="bk-condition" className="text-xs font-medium">
-                Chief Complaint / Condition *
+                Dental Concern / Treatment Needed *
               </Label>
               <Textarea
                 id="bk-condition"
@@ -1502,7 +1501,7 @@ function BookingModal({
                   setForm((p) => ({ ...p, condition: e.target.value }))
                 }
                 required
-                placeholder="Briefly describe your main health concern"
+                placeholder="e.g. tooth pain, implants, whitening..."
                 rows={3}
                 className="mt-1"
                 data-ocid="booking.textarea"
@@ -1544,7 +1543,9 @@ function BookingModal({
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="online">Online (Video Call)</SelectItem>
-                    <SelectItem value="inPerson">In-Person (Mumbai)</SelectItem>
+                    <SelectItem value="inPerson">
+                      In-Person (Rohini, Delhi)
+                    </SelectItem>
                   </SelectContent>
                 </Select>
               </div>
@@ -1981,9 +1982,7 @@ function AdminDashboard({ onClose }: { onClose: () => void }) {
 function Footer({ onBook }: { onBook: () => void }) {
   const year = new Date().getFullYear();
   const hostname =
-    typeof window !== "undefined"
-      ? window.location.hostname
-      : "drkshitejbhati.com";
+    typeof window !== "undefined" ? window.location.hostname : "crowndental.in";
 
   return (
     <footer
@@ -1995,20 +1994,20 @@ function Footer({ onBook }: { onBook: () => void }) {
           {/* Brand */}
           <div className="md:col-span-2">
             <div className="font-serif text-2xl font-semibold mb-1">
-              Gentle Cure
+              Crown Dental
             </div>
             <div className="text-xs text-primary-foreground/60 tracking-widest uppercase mb-4">
-              Homeopathic Clinic
+              Dental Clinic
             </div>
             <p className="text-primary-foreground/70 text-sm leading-relaxed max-w-sm">
-              Expert homeopathic care for chronic and lifestyle diseases by Dr.
-              Kshitej Bhati. Serving patients worldwide for over 20 years.
+              Expert dental care by Dr. Rajat Bansal & Dr. Priya Bansal. Serving
+              patients in Rohini, Delhi for over 15 years.
             </p>
             <div className="flex gap-3 mt-6">
               {[
                 {
                   icon: <SiWhatsapp className="w-4 h-4" />,
-                  href: "https://wa.me/91XXXXXXXXXX",
+                  href: "https://wa.me/918708082909",
                 },
                 { icon: <SiInstagram className="w-4 h-4" />, href: "#" },
                 { icon: <SiFacebook className="w-4 h-4" />, href: "#" },
@@ -2066,15 +2065,15 @@ function Footer({ onBook }: { onBook: () => void }) {
             <div className="space-y-3 text-sm text-primary-foreground/70">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
-                <span>Bandra West, Mumbai, Maharashtra 400050, India</span>
+                <span>B-4/1, Sector-11, Rohini, Delhi-85</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                <span>+91-XXXXXXXXXX</span>
+                <span>8708082909, 8950415304</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 flex-shrink-0" />
-                <span>info@drkshitejbhati.com</span>
+                <span>drrajatbansal14@gmail.com</span>
               </div>
             </div>
           </div>
@@ -2083,10 +2082,7 @@ function Footer({ onBook }: { onBook: () => void }) {
         <Separator className="bg-white/10 mb-6" />
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-primary-foreground/50">
-          <p>
-            © {year} Gentle Cure Homeopathic Clinic. Dr. Kshitej Bhati. All
-            rights reserved.
-          </p>
+          <p>© {year} Crown Dental Clinic. All rights reserved.</p>
           <p>
             Built with ❤️ using{" "}
             <a
@@ -2108,7 +2104,7 @@ function Footer({ onBook }: { onBook: () => void }) {
 function WhatsAppButton() {
   return (
     <a
-      href="https://wa.me/91XXXXXXXXXX"
+      href="https://wa.me/918708082909"
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-btn"
